@@ -70,12 +70,25 @@ while answer == "yes":
 
 #Assignment 5
 
-#length = 5
-#width = 5
-
+"""
 len_count = 0
 width_count = 0
 
 while len_count <= 4:
     print("*" * 5)
     len_count = len_count + 1    
+"""
+
+#Assignment 6
+
+square_size = input("How big do you want the square to be? ")
+
+length = int(square_size)
+width = int(square_size)
+
+len_count = 0
+
+
+while len_count <= length-1:
+    print("*" * width)
+    len_count = len_count + 1
