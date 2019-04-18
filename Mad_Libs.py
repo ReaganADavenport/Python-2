@@ -17,6 +17,7 @@ def want_to_play():
     else:
         return print("That\'s not a 'y' or a 'n'.")
 
+
 def make_madlib():
 
     

@@ -80,7 +80,7 @@ while len_count <= 4:
 """
 
 #Assignment 6
-
+"""
 square_size = input("How big do you want the square to be? ")
 
 length = int(square_size)
@@ -92,3 +92,20 @@ len_count = 0
 while len_count <= length-1:
     print("*" * width)
     len_count = len_count + 1
+"""
+
+# Assignment 7
+
+height = int(input("Height? "))
+width = int(input("Width? "))
+
+h_counter = 1
+
+
+while h_counter <= height:
+    if h_counter == 1 or h_counter == height:
+        print("*" * width)
+        h_counter = h_counter + 1
+    else:
+        print("*"+ " "* (width-2) + "*" )
+        h_counter = h_counter + 1
